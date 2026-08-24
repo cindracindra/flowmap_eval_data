@@ -900,7 +900,7 @@
           "opened_by": null,
           "transitions": [],
           "id": "phase-1",
-          "label": "Compute Line Item Total"
+          "label": "Calculate Line Item Total"
         }
       ]
     }
@@ -3693,7 +3693,7 @@
           "opened_by": null,
           "transitions": [],
           "id": "phase-1",
-          "label": "Retrieve Session Attribute"
+          "label": "Session Attribute Retrieval"
         },
         {
           "nodes": [
@@ -5208,7 +5208,13 @@
           "from": "m107374182685~5",
           "to": "c30064771776~2",
           "type": "sequence",
-          "returnFrom": "c30064771777~1"
+          "returnFrom": "c30064771777~1",
+          "branchRequirements": [
+            {
+              "groupId": "cs47244640264~3",
+              "armLabel": "else"
+            }
+          ]
         },
         {
           "from": "m107374182722~10",
@@ -5231,18 +5237,6 @@
           "from": "c30064771777~1",
           "to": "c30064771776~2",
           "type": "data"
-        },
-        {
-          "from": "m107374182685~5",
-          "to": "c30064771776~2",
-          "type": "sequence",
-          "returnFrom": "c30064771770~4",
-          "branchRequirements": [
-            {
-              "groupId": "cs47244640264~3",
-              "armLabel": "else"
-            }
-          ]
         }
       ],
       "entryPoint": "org.mybatis.jpetstore.web.controllers.CartController.viewCart:java.lang.String(javax.servlet.http.HttpSession,org.springframework.ui.Model)",
@@ -5546,7 +5540,7 @@
           "opened_by": null,
           "transitions": [],
           "id": "phase-1",
-          "label": "Retrieve Cart Attribute"
+          "label": "Retrieve Cart Session"
         },
         {
           "nodes": [
@@ -6054,7 +6048,13 @@
           "from": "m107374182685~6",
           "to": "c30064771786~3",
           "type": "sequence",
-          "returnFrom": "c30064771785~2"
+          "returnFrom": "c30064771785~2",
+          "branchRequirements": [
+            {
+              "groupId": "cs47244640264~4",
+              "armLabel": "else"
+            }
+          ]
         },
         {
           "from": "m107374182722~11",
@@ -6225,18 +6225,6 @@
           "from": "c30064771785~2",
           "to": "c30064771787~12",
           "type": "data"
-        },
-        {
-          "from": "m107374182685~6",
-          "to": "c30064771786~3",
-          "type": "sequence",
-          "returnFrom": "c30064771770~5",
-          "branchRequirements": [
-            {
-              "groupId": "cs47244640264~4",
-              "armLabel": "else"
-            }
-          ]
         },
         {
           "from": "m107374182442~13",
@@ -7394,7 +7382,13 @@
           "from": "m107374182685~6",
           "to": "c30064771805~3",
           "type": "sequence",
-          "returnFrom": "c30064771803~2"
+          "returnFrom": "c30064771803~2",
+          "branchRequirements": [
+            {
+              "groupId": "cs47244640264~4",
+              "armLabel": "else"
+            }
+          ]
         },
         {
           "from": "m107374182722~11",
@@ -7517,18 +7511,6 @@
           "from": "c30064771803~2",
           "to": "c30064771805~3",
           "type": "data"
-        },
-        {
-          "from": "m107374182685~6",
-          "to": "c30064771805~3",
-          "type": "sequence",
-          "returnFrom": "c30064771770~5",
-          "branchRequirements": [
-            {
-              "groupId": "cs47244640264~4",
-              "armLabel": "else"
-            }
-          ]
         }
       ],
       "entryPoint": "org.mybatis.jpetstore.web.controllers.CartController.removeItemFromCart:java.lang.String(java.lang.String,javax.servlet.http.HttpSession,org.springframework.ui.Model)",
@@ -8245,7 +8227,7 @@
           "opened_by": null,
           "transitions": [],
           "id": "phase-4",
-          "label": "Cart Item Removal"
+          "label": "Item Removal and Retrieval"
         },
         {
           "nodes": [
@@ -8254,7 +8236,7 @@
           "opened_by": null,
           "transitions": [],
           "id": "phase-5",
-          "label": "Add error message"
+          "label": "Add error message to model"
         },
         {
           "nodes": [
@@ -8750,7 +8732,13 @@
           "from": "m107374182685~5",
           "to": "c30064771813~2",
           "type": "sequence",
-          "returnFrom": "c30064771811~1"
+          "returnFrom": "c30064771811~1",
+          "branchRequirements": [
+            {
+              "groupId": "cs47244640264~3",
+              "armLabel": "else"
+            }
+          ]
         },
         {
           "from": "m107374182722~10",
@@ -8932,18 +8920,6 @@
           "from": "c30064771821~21",
           "to": "c30064771823~23",
           "type": "data"
-        },
-        {
-          "from": "m107374182685~5",
-          "to": "c30064771813~2",
-          "type": "sequence",
-          "returnFrom": "c30064771770~4",
-          "branchRequirements": [
-            {
-              "groupId": "cs47244640264~3",
-              "armLabel": "else"
-            }
-          ]
         }
       ],
       "entryPoint": "org.mybatis.jpetstore.web.controllers.CartController.updateCartQuantities:java.lang.String(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpSession,org.springframework.ui.Model)",
@@ -9909,7 +9885,13 @@
           "from": "m107374182685~5",
           "to": "c30064771827~2",
           "type": "sequence",
-          "returnFrom": "c30064771828~1"
+          "returnFrom": "c30064771828~1",
+          "branchRequirements": [
+            {
+              "groupId": "cs47244640264~3",
+              "armLabel": "else"
+            }
+          ]
         },
         {
           "from": "m107374182722~10",
@@ -9932,18 +9914,6 @@
           "from": "c30064771828~1",
           "to": "c30064771827~2",
           "type": "data"
-        },
-        {
-          "from": "m107374182685~5",
-          "to": "c30064771827~2",
-          "type": "sequence",
-          "returnFrom": "c30064771770~4",
-          "branchRequirements": [
-            {
-              "groupId": "cs47244640264~3",
-              "armLabel": "else"
-            }
-          ]
         }
       ],
       "entryPoint": "org.mybatis.jpetstore.web.controllers.CartController.checkOut:java.lang.String(javax.servlet.http.HttpSession,org.springframework.ui.Model)",
@@ -10247,7 +10217,7 @@
           "opened_by": null,
           "transitions": [],
           "id": "phase-1",
-          "label": "Retrieve Cart from Session"
+          "label": "Retrieve Cart Session"
         },
         {
           "nodes": [
@@ -12801,7 +12771,7 @@
           "opened_by": null,
           "transitions": [],
           "id": "phase-2",
-          "label": "Case Normalization"
+          "label": "Convert to Lowercase"
         },
         {
           "nodes": [
@@ -18170,7 +18140,7 @@
           "opened_by": null,
           "transitions": [],
           "id": "phase-1",
-          "label": "Retrieve Session Attributes"
+          "label": "Session Attribute Retrieval"
         },
         {
           "nodes": [
@@ -24854,7 +24824,7 @@
           "opened_by": null,
           "transitions": [],
           "id": "phase-3",
-          "label": "Generate Sequence ID"
+          "label": "Create Incremented Sequence"
         },
         {
           "nodes": [
@@ -24978,7 +24948,7 @@
           "opened_by": null,
           "transitions": [],
           "id": "phase-16",
-          "label": "Retrieve Order Expiry"
+          "label": "Retrieve Expiry Date"
         },
         {
           "nodes": [
