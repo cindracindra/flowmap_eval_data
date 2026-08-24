@@ -1,0 +1,104 @@
+[
+  {
+    "label": -1,
+    "member_full_names": [
+      "org.mybatis.jpetstore.domain.Account",
+      "org.mybatis.jpetstore.domain.Category",
+      "org.mybatis.jpetstore.domain.Order",
+      "org.mybatis.jpetstore.domain.Product",
+      "org.mybatis.jpetstore.domain.Sequence",
+      "org.mybatis.jpetstore.mapper.AccountMapper",
+      "org.mybatis.jpetstore.mapper.SequenceMapper",
+      "org.mybatis.jpetstore.service.AccountService",
+      "org.mybatis.jpetstore.web.configuration.StaxFactoryInitializationListener",
+      "org.mybatis.jpetstore.web.controllers.AccountController$AccountSession",
+      "org.mybatis.jpetstore.web.controllers.AccountController",
+      "org.mybatis.jpetstore.web.controllers.OrderController",
+      "org.mybatis.jpetstore.web.controllers.RootController"
+    ],
+    "statistical_terms": [
+      "account",
+      "set",
+      "name",
+      "bill",
+      "ship",
+      "order",
+      "state",
+      "first",
+      "city",
+      "zip"
+    ],
+    "readme_paths": [],
+    "llm_label": "Account Management"
+  },
+  {
+    "label": 0,
+    "member_full_names": [
+      "org.mybatis.jpetstore.mapper.CategoryMapper",
+      "org.mybatis.jpetstore.mapper.ProductMapper",
+      "org.mybatis.jpetstore.service.CatalogService",
+      "org.mybatis.jpetstore.web.controllers.CatalogController"
+    ],
+    "statistical_terms": [
+      "category",
+      "catalog",
+      "search",
+      "mapper",
+      "products",
+      "keyword",
+      "view",
+      "main",
+      "controller",
+      "button"
+    ],
+    "readme_paths": [],
+    "llm_label": "Product Catalog Management"
+  },
+  {
+    "label": 1,
+    "member_full_names": [
+      "org.mybatis.jpetstore.domain.Cart",
+      "org.mybatis.jpetstore.domain.CartItem",
+      "org.mybatis.jpetstore.domain.Item",
+      "org.mybatis.jpetstore.domain.LineItem",
+      "org.mybatis.jpetstore.web.controllers.CartController"
+    ],
+    "statistical_terms": [
+      "cart",
+      "quantity",
+      "set",
+      "unit",
+      "total",
+      "price",
+      "stock",
+      "number",
+      "attribute2",
+      "attribute1"
+    ],
+    "readme_paths": [],
+    "llm_label": "Shopping Cart Management"
+  },
+  {
+    "label": 2,
+    "member_full_names": [
+      "org.mybatis.jpetstore.mapper.ItemMapper",
+      "org.mybatis.jpetstore.mapper.LineItemMapper",
+      "org.mybatis.jpetstore.mapper.OrderMapper",
+      "org.mybatis.jpetstore.service.OrderService"
+    ],
+    "statistical_terms": [
+      "mapper",
+      "order",
+      "sequence",
+      "line",
+      "insert",
+      "inventory",
+      "username",
+      "increment",
+      "next",
+      "orders"
+    ],
+    "readme_paths": [],
+    "llm_label": "Order Processing"
+  }
+]

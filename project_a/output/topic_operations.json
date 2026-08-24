@@ -1,0 +1,188 @@
+{
+  "0": [
+    {
+      "id": "m107374182650",
+      "label": "Account Registration Form",
+      "rootMethodFullName": "org.mybatis.jpetstore.web.controllers.AccountController.newAccountForm:java.lang.String(org.springframework.ui.Model)",
+      "similarity": 0.15638813376426697
+    },
+    {
+      "id": "m107374182649",
+      "label": "Account Sign Off",
+      "rootMethodFullName": "org.mybatis.jpetstore.web.controllers.AccountController.signoff:java.lang.String(javax.servlet.http.HttpSession)",
+      "similarity": 0.10868695378303528
+    },
+    {
+      "id": "m107374182648",
+      "label": "Account Signon",
+      "rootMethodFullName": "org.mybatis.jpetstore.web.controllers.AccountController.signon:java.lang.String(java.lang.String,java.lang.String,javax.servlet.http.HttpSession,org.springframework.ui.Model)",
+      "similarity": 0.49693357944488525
+    },
+    {
+      "id": "m107374182652",
+      "label": "Edit Account",
+      "rootMethodFullName": "org.mybatis.jpetstore.web.controllers.AccountController.editAccountForm:java.lang.String(javax.servlet.http.HttpSession,org.springframework.ui.Model)",
+      "similarity": 0.13499480485916138
+    },
+    {
+      "id": "m107374182653",
+      "label": "Edit User Account",
+      "rootMethodFullName": "org.mybatis.jpetstore.web.controllers.AccountController.editAccount:java.lang.String(org.mybatis.jpetstore.domain.Account,javax.servlet.http.HttpSession)",
+      "similarity": 0.4278791546821594
+    },
+    {
+      "id": "m107374182469",
+      "label": "Get Category ID",
+      "rootMethodFullName": "org.mybatis.jpetstore.domain.Category.toString:java.lang.String()",
+      "similarity": 0.43930378556251526
+    },
+    {
+      "id": "m107374182585",
+      "label": "Get Product Name",
+      "rootMethodFullName": "org.mybatis.jpetstore.domain.Product.toString:java.lang.String()",
+      "similarity": 0.22322718799114227
+    },
+    {
+      "id": "m107374182673",
+      "label": "Product Search",
+      "rootMethodFullName": "org.mybatis.jpetstore.web.controllers.CatalogController.searchProducts:java.lang.String(java.lang.String,org.springframework.ui.Model)",
+      "similarity": 0.6161866784095764
+    },
+    {
+      "id": "m107374182628",
+      "label": "Retrieve Category List",
+      "rootMethodFullName": "org.mybatis.jpetstore.service.CatalogService.getCategoryList:java.util.List()",
+      "similarity": 0.6498586535453796
+    },
+    {
+      "id": "m107374182464",
+      "label": "Set Category ID",
+      "rootMethodFullName": "org.mybatis.jpetstore.domain.Category.setCategoryId:void(java.lang.String)",
+      "similarity": 0.39710646867752075
+    },
+    {
+      "id": "m107374182578",
+      "label": "Set Product ID",
+      "rootMethodFullName": "org.mybatis.jpetstore.domain.Product.setProductId:void(java.lang.String)",
+      "similarity": 0.2540093660354614
+    },
+    {
+      "id": "m107374182670",
+      "label": "View Category Page",
+      "rootMethodFullName": "org.mybatis.jpetstore.web.controllers.CatalogController.viewCategory:java.lang.String(java.lang.String,org.springframework.ui.Model)",
+      "similarity": 0.7237785458564758
+    },
+    {
+      "id": "m107374182672",
+      "label": "View Item Details",
+      "rootMethodFullName": "org.mybatis.jpetstore.web.controllers.CatalogController.viewItem:java.lang.String(java.lang.String,org.springframework.ui.Model)",
+      "similarity": 0.5439761281013489
+    },
+    {
+      "id": "m107374182496",
+      "label": "View Product Details",
+      "rootMethodFullName": "org.mybatis.jpetstore.domain.Item.toString:java.lang.String()",
+      "similarity": 0.3875759243965149
+    },
+    {
+      "id": "m107374182671",
+      "label": "View Product Details",
+      "rootMethodFullName": "org.mybatis.jpetstore.web.controllers.CatalogController.viewProduct:java.lang.String(java.lang.String,org.springframework.ui.Model)",
+      "similarity": 0.6066864132881165
+    }
+  ],
+  "1": [
+    {
+      "id": "m107374182663",
+      "label": "Add Item to Cart",
+      "rootMethodFullName": "org.mybatis.jpetstore.web.controllers.CartController.addItemToCart:java.lang.String(java.lang.String,javax.servlet.http.HttpSession,org.springframework.ui.Model)",
+      "similarity": 0.537710428237915
+    },
+    {
+      "id": "m107374182666",
+      "label": "Cart Checkout",
+      "rootMethodFullName": "org.mybatis.jpetstore.web.controllers.CartController.checkOut:java.lang.String(javax.servlet.http.HttpSession,org.springframework.ui.Model)",
+      "similarity": 0.29337161779403687
+    },
+    {
+      "id": "m107374182662",
+      "label": "Cart View",
+      "rootMethodFullName": "org.mybatis.jpetstore.web.controllers.CartController.viewCart:java.lang.String(javax.servlet.http.HttpSession,org.springframework.ui.Model)",
+      "similarity": 0.3135177195072174
+    },
+    {
+      "id": "m107374182677",
+      "label": "Checkout Order Creation",
+      "rootMethodFullName": "org.mybatis.jpetstore.web.controllers.OrderController.newOrderForm:java.lang.String(javax.servlet.http.HttpSession,org.springframework.ui.Model)",
+      "similarity": 0.4289689064025879
+    },
+    {
+      "id": "m107374182664",
+      "label": "Remove Cart Item",
+      "rootMethodFullName": "org.mybatis.jpetstore.web.controllers.CartController.removeItemFromCart:java.lang.String(java.lang.String,javax.servlet.http.HttpSession,org.springframework.ui.Model)",
+      "similarity": 0.41623061895370483
+    },
+    {
+      "id": "m107374182473",
+      "label": "Set Item Identifier",
+      "rootMethodFullName": "org.mybatis.jpetstore.domain.Item.setItemId:void(java.lang.String)",
+      "similarity": 0.3643741309642792
+    },
+    {
+      "id": "m107374182665",
+      "label": "Update Cart Quantities",
+      "rootMethodFullName": "org.mybatis.jpetstore.web.controllers.CartController.updateCartQuantities:java.lang.String(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpSession,org.springframework.ui.Model)",
+      "similarity": 0.5567329525947571
+    },
+    {
+      "id": "m107374182513",
+      "label": "Update Line Item Total",
+      "rootMethodFullName": "org.mybatis.jpetstore.domain.LineItem.setQuantity:void(int)",
+      "similarity": 0.6031515598297119
+    }
+  ],
+  "2": [
+    {
+      "id": "m107374182651",
+      "label": "Account Creation",
+      "rootMethodFullName": "org.mybatis.jpetstore.web.controllers.AccountController.newAccount:java.lang.String(org.mybatis.jpetstore.domain.Account)",
+      "similarity": 0.24324795603752136
+    },
+    {
+      "id": "m107374182576",
+      "label": "Initialize Order Class",
+      "rootMethodFullName": "org.mybatis.jpetstore.domain.Order.<clinit>:void()",
+      "similarity": 0.25180864334106445
+    },
+    {
+      "id": "m107374182574",
+      "label": "Order Date Formatting",
+      "rootMethodFullName": "org.mybatis.jpetstore.domain.Order.getFormattedOrderDate:java.lang.String()",
+      "similarity": 0.37437769770622253
+    },
+    {
+      "id": "m107374182678",
+      "label": "Order Submission",
+      "rootMethodFullName": "org.mybatis.jpetstore.web.controllers.OrderController.newOrder:java.lang.String(org.mybatis.jpetstore.domain.Order,boolean,boolean,javax.servlet.http.HttpSession,org.springframework.ui.Model)",
+      "similarity": 0.37865492701530457
+    },
+    {
+      "id": "m107374182679",
+      "label": "View Order",
+      "rootMethodFullName": "org.mybatis.jpetstore.web.controllers.OrderController.viewOrder:java.lang.String(int,javax.servlet.http.HttpSession,org.springframework.ui.Model)",
+      "similarity": 0.5019011497497559
+    },
+    {
+      "id": "m107374182676",
+      "label": "View Order History",
+      "rootMethodFullName": "org.mybatis.jpetstore.web.controllers.OrderController.listOrders:java.lang.String(javax.servlet.http.HttpSession,org.springframework.ui.Model)",
+      "similarity": 0.4348846673965454
+    },
+    {
+      "id": "m107374182644",
+      "label": "XML Factory Setup",
+      "rootMethodFullName": "org.mybatis.jpetstore.web.configuration.StaxFactoryInitializationListener.contextInitialized:void(javax.servlet.ServletContextEvent)",
+      "similarity": 0.1455666422843933
+    }
+  ]
+}
