@@ -1,182 +1,152 @@
 {
   "m107374182464": [
     {
-      "label": 0,
-      "similarity": 0.39710646867752075
+      "label": 1,
+      "similarity": 1.0
     }
   ],
   "m107374182469": [
     {
-      "label": 0,
-      "similarity": 0.43930378556251526
-    }
-  ],
-  "m107374182473": [
-    {
       "label": 1,
-      "similarity": 0.3643741309642792
+      "similarity": 1.0
     }
   ],
+  "m107374182473": [],
   "m107374182496": [
     {
-      "label": 0,
-      "similarity": 0.3611661195755005
+      "label": 1,
+      "similarity": 1.0
     }
   ],
   "m107374182513": [
     {
-      "label": 1,
-      "similarity": 0.5892879366874695
+      "label": 3,
+      "similarity": 1.0
     }
   ],
   "m107374182574": [
     {
-      "label": 2,
-      "similarity": 0.37437769770622253
+      "label": 3,
+      "similarity": 1.0
     }
   ],
-  "m107374182576": [
-    {
-      "label": 2,
-      "similarity": 0.25180864334106445
-    }
-  ],
+  "m107374182576": [],
   "m107374182578": [
     {
-      "label": 0,
-      "similarity": 0.2540093660354614
+      "label": 1,
+      "similarity": 1.0
     }
   ],
   "m107374182585": [
     {
-      "label": 0,
-      "similarity": 0.22929129004478455
+      "label": 1,
+      "similarity": 1.0
     }
   ],
   "m107374182628": [
     {
-      "label": 0,
-      "similarity": 0.6498586535453796
+      "label": 1,
+      "similarity": 1.0
     }
   ],
-  "m107374182644": [
-    {
-      "label": 2,
-      "similarity": 0.1455666422843933
-    }
-  ],
+  "m107374182644": [],
   "m107374182648": [
     {
       "label": 0,
-      "similarity": 0.44701066613197327
+      "similarity": 1.0
     }
   ],
   "m107374182649": [
     {
       "label": 0,
-      "similarity": 0.10868695378303528
+      "similarity": 1.0
     }
   ],
   "m107374182650": [
     {
       "label": 0,
-      "similarity": 0.15638813376426697
+      "similarity": 1.0
     }
   ],
   "m107374182651": [
     {
-      "label": 2,
-      "similarity": 0.32276651263237
+      "label": 0,
+      "similarity": 1.0
     }
   ],
   "m107374182652": [
     {
-      "label": 1,
-      "similarity": 0.12412959337234497
+      "label": 0,
+      "similarity": 1.0
     }
   ],
   "m107374182653": [
     {
       "label": 0,
-      "similarity": 0.42436909675598145
+      "similarity": 1.0
     }
   ],
   "m107374182662": [
     {
-      "label": 1,
-      "similarity": 0.2521088421344757
+      "label": 2,
+      "similarity": 1.0
     }
   ],
   "m107374182663": [
     {
-      "label": 1,
-      "similarity": 0.5940656065940857
+      "label": 2,
+      "similarity": 1.0
     }
   ],
   "m107374182664": [
     {
-      "label": 1,
-      "similarity": 0.39318200945854187
+      "label": 2,
+      "similarity": 1.0
     }
   ],
   "m107374182665": [
     {
-      "label": 1,
-      "similarity": 0.6197749376296997
+      "label": 2,
+      "similarity": 1.0
     }
   ],
   "m107374182666": [
     {
-      "label": 1,
-      "similarity": 0.25432950258255005
+      "label": 2,
+      "similarity": 1.0
     }
   ],
   "m107374182670": [
     {
-      "label": 0,
-      "similarity": 0.7312580943107605
+      "label": 1,
+      "similarity": 1.0
     }
   ],
   "m107374182671": [
     {
-      "label": 0,
-      "similarity": 0.6016479730606079
+      "label": 1,
+      "similarity": 1.0
     }
   ],
   "m107374182672": [
     {
-      "label": 0,
-      "similarity": 0.5629165172576904
+      "label": 1,
+      "similarity": 1.0
     }
   ],
-  "m107374182673": [
-    {
-      "label": 0,
-      "similarity": 0.6297804117202759
-    }
-  ],
-  "m107374182676": [
-    {
-      "label": 2,
-      "similarity": 0.49451056122779846
-    }
-  ],
+  "m107374182673": [],
+  "m107374182676": [],
   "m107374182677": [
     {
-      "label": 1,
-      "similarity": 0.43187636137008667
+      "label": 3,
+      "similarity": 1.0
     }
   ],
-  "m107374182678": [
-    {
-      "label": 2,
-      "similarity": 0.36019405722618103
-    }
-  ],
+  "m107374182678": [],
   "m107374182679": [
     {
-      "label": 2,
-      "similarity": 0.5802673101425171
+      "label": 3,
+      "similarity": 1.0
     }
   ]
 }
